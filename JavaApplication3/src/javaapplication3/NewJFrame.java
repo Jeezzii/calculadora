@@ -17,12 +17,22 @@ public class NewJFrame extends javax.swing.JFrame {
     
     private void operar(){
         
+        
         switch(operador){
         case '+':
         resultado=a+b;
         break;
+        case '-':
+        resultado=a-b;
+        break;
+        case '*':
+        resultado=a*b;
+        break;
+        case '/':
+        resultado=a/b;
+        break;
         }
-        
+        return resultado;
     }
     
 
@@ -395,11 +405,21 @@ public class NewJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        // TODO add your handling code here:
+        // 
+        String display = panel.getText();
+        a = Double.parseDouble(display);
+        System.out.println(" el primer numero obtenido es: " + display);
+        System.out.println(" el primer numero doble es: " + a);
+        panel.setText("-");
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
-        // TODO add your handling code here:
+        // operador de multiplicación
+        String display = panel.getText();
+        a = Double.parseDouble(display);
+        System.out.println(" el primer numero obtenido es: " + display);
+        System.out.println(" el primer numero doble es: " + a);
+        panel.setText("*");
     }//GEN-LAST:event_jButton23ActionPerformed
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
