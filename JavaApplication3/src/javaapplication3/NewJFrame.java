@@ -15,7 +15,7 @@ public class NewJFrame extends javax.swing.JFrame {
      char operador;
      //se realiza la operación deacuerdo al signo
     
-    private void operar(){
+    private double operar(double a, double b,byte op){
         
         
         switch(operador){
@@ -410,7 +410,8 @@ public class NewJFrame extends javax.swing.JFrame {
         a = Double.parseDouble(display);
         System.out.println(" el primer numero obtenido es: " + display);
         System.out.println(" el primer numero doble es: " + a);
-        panel.setText("-");
+        panel.setText("");
+        byte operacion = 2;
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
@@ -435,6 +436,9 @@ public class NewJFrame extends javax.swing.JFrame {
         resultado = a+b;
         String res = String.valueOf(resultado);
         panel.setText(res);
+        byte op = 0;
+        double c = operar(a,b, op);
+        System.out.println("funcion operar: " + c);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
