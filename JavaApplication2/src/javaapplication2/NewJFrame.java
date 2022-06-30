@@ -15,7 +15,7 @@ public class NewJFrame extends javax.swing.JFrame {
      char operador;
      //se realiza la operación deacuerdo al signo
     
-    private double operar(double a, double b,byte op){
+    private double operar(double a, double b,char op){
         
         
         switch(operador){
@@ -82,6 +82,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(0, 0, 153));
 
         jButton2.setBackground(new java.awt.Color(102, 204, 255));
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("4");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,6 +91,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton3.setBackground(new java.awt.Color(102, 204, 255));
+        jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setText("7");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,6 +100,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton4.setBackground(new java.awt.Color(255, 153, 102));
+        jButton4.setForeground(new java.awt.Color(0, 0, 0));
         jButton4.setText(".");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,6 +109,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton13.setBackground(new java.awt.Color(102, 204, 255));
+        jButton13.setForeground(new java.awt.Color(0, 0, 0));
         jButton13.setText("1");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,6 +118,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton14.setBackground(new java.awt.Color(102, 204, 255));
+        jButton14.setForeground(new java.awt.Color(0, 0, 0));
         jButton14.setText("5");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,6 +127,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton15.setBackground(new java.awt.Color(102, 204, 255));
+        jButton15.setForeground(new java.awt.Color(0, 0, 0));
         jButton15.setText("2");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,6 +136,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton16.setBackground(new java.awt.Color(102, 204, 255));
+        jButton16.setForeground(new java.awt.Color(0, 0, 0));
         jButton16.setText("0");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,6 +145,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton17.setBackground(new java.awt.Color(102, 204, 255));
+        jButton17.setForeground(new java.awt.Color(0, 0, 0));
         jButton17.setText("9");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,6 +154,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton18.setBackground(new java.awt.Color(102, 204, 255));
+        jButton18.setForeground(new java.awt.Color(0, 0, 0));
         jButton18.setText("6");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,6 +163,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton19.setBackground(new java.awt.Color(102, 204, 255));
+        jButton19.setForeground(new java.awt.Color(0, 0, 0));
         jButton19.setText("3");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,6 +172,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton20.setBackground(new java.awt.Color(255, 0, 51));
+        jButton20.setForeground(new java.awt.Color(0, 0, 0));
         jButton20.setText("C");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,14 +181,15 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton21.setBackground(new java.awt.Color(51, 153, 255));
+        jButton21.setForeground(new java.awt.Color(0, 0, 0));
         jButton21.setText("+");
         jButton21.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
             public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
                 jButton21AncestorAdded(evt);
             }
             public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
-            }
-            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
             }
         });
         jButton21.addActionListener(new java.awt.event.ActionListener() {
@@ -187,6 +199,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton22.setBackground(new java.awt.Color(51, 153, 255));
+        jButton22.setForeground(new java.awt.Color(0, 0, 0));
         jButton22.setText("-");
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,6 +208,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton23.setBackground(new java.awt.Color(51, 153, 255));
+        jButton23.setForeground(new java.awt.Color(0, 0, 0));
         jButton23.setText("*");
         jButton23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,6 +217,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton24.setBackground(new java.awt.Color(102, 204, 255));
+        jButton24.setForeground(new java.awt.Color(0, 0, 0));
         jButton24.setText("8");
         jButton24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -211,6 +226,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton25.setBackground(new java.awt.Color(51, 153, 255));
+        jButton25.setForeground(new java.awt.Color(0, 0, 0));
         jButton25.setText("/");
         jButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -219,6 +235,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton1.setBackground(new java.awt.Color(102, 255, 153));
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("=");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -380,8 +397,9 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // Tecla de punto
-        
-        
+        if(!(panel.getText().contains("."))){
+           panel.setText(panel.getText()+".");  
+        }
         
     }//GEN-LAST:event_jButton4ActionPerformed
 
@@ -396,12 +414,13 @@ public class NewJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+//tecla de sumar
         String display = panel.getText();
         a = Double.parseDouble(display);
         System.out.println(" el primer numero obtenido es: " + display);
         System.out.println(" el primer numero doble es: " + a);
         panel.setText("");
-        
+        operador = '+';
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
@@ -411,7 +430,7 @@ public class NewJFrame extends javax.swing.JFrame {
         System.out.println(" el primer numero obtenido es: " + display);
         System.out.println(" el primer numero doble es: " + a);
         panel.setText("");
-        byte operacion = 2;
+         operador = '-';
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
@@ -420,12 +439,18 @@ public class NewJFrame extends javax.swing.JFrame {
         a = Double.parseDouble(display);
         System.out.println(" el primer numero obtenido es: " + display);
         System.out.println(" el primer numero doble es: " + a);
-        panel.setText("*");
+        panel.setText("");
+        operador = '*';
     }//GEN-LAST:event_jButton23ActionPerformed
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
         // tecla operador de divicion 
-     
+        String display = panel.getText();
+        a = Double.parseDouble(display);
+        System.out.println(" el primer numero obtenido es: " + display);
+        System.out.println(" el primer numero doble es: " + a);
+        panel.setText("");
+        operador = '/';
         
     }//GEN-LAST:event_jButton25ActionPerformed
 
@@ -433,12 +458,9 @@ public class NewJFrame extends javax.swing.JFrame {
         String display = panel.getText();
         b = Double.parseDouble(display);
         System.out.println(" el segundo numero doble es: " + b);
-        resultado = a+b;
-        String res = String.valueOf(resultado);
-        panel.setText(res);
-        byte op = 0;
-        double c = operar(a,b, op);
+        double c = operar(a,b, operador);
         System.out.println("funcion operar: " + c);
+        panel.setText(String.valueOf(c));
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
