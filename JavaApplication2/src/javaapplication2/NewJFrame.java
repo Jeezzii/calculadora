@@ -84,7 +84,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(0, 0, 153));
 
         jButton2.setBackground(new java.awt.Color(102, 204, 255));
-        jButton2.setForeground(new java.awt.Color(0, 0, 0));
+        jButton2.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton2.setText("4");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,7 +93,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton3.setBackground(new java.awt.Color(102, 204, 255));
-        jButton3.setForeground(new java.awt.Color(0, 0, 0));
+        jButton3.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         jButton3.setText("7");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,9 +101,8 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(255, 153, 102));
-        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(0, 0, 0));
+        jButton4.setBackground(new java.awt.Color(255, 204, 153));
+        jButton4.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 18)); // NOI18N
         jButton4.setText(".");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,7 +111,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton13.setBackground(new java.awt.Color(102, 204, 255));
-        jButton13.setForeground(new java.awt.Color(0, 0, 0));
+        jButton13.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton13.setText("1");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,7 +120,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton14.setBackground(new java.awt.Color(102, 204, 255));
-        jButton14.setForeground(new java.awt.Color(0, 0, 0));
+        jButton14.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton14.setText("5");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,7 +129,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton15.setBackground(new java.awt.Color(102, 204, 255));
-        jButton15.setForeground(new java.awt.Color(0, 0, 0));
+        jButton15.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton15.setText("2");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,7 +138,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton16.setBackground(new java.awt.Color(102, 204, 255));
-        jButton16.setForeground(new java.awt.Color(0, 0, 0));
+        jButton16.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton16.setText("0");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,7 +147,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton17.setBackground(new java.awt.Color(102, 204, 255));
-        jButton17.setForeground(new java.awt.Color(0, 0, 0));
+        jButton17.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton17.setText("9");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -157,7 +156,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton18.setBackground(new java.awt.Color(102, 204, 255));
-        jButton18.setForeground(new java.awt.Color(0, 0, 0));
+        jButton18.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton18.setText("6");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -166,7 +165,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton19.setBackground(new java.awt.Color(102, 204, 255));
-        jButton19.setForeground(new java.awt.Color(0, 0, 0));
+        jButton19.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton19.setText("3");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,7 +174,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton20.setBackground(new java.awt.Color(255, 0, 51));
-        jButton20.setForeground(new java.awt.Color(0, 0, 0));
+        jButton20.setFont(new java.awt.Font("Segoe Print", 0, 18)); // NOI18N
         jButton20.setText("C");
         jButton20.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -193,7 +192,6 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jButton21.setBackground(new java.awt.Color(51, 153, 255));
         jButton21.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButton21.setForeground(new java.awt.Color(0, 0, 0));
         jButton21.setText("+");
         jButton21.addAncestorListener(new javax.swing.event.AncestorListener() {
             public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
@@ -212,7 +210,6 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jButton22.setBackground(new java.awt.Color(51, 153, 255));
         jButton22.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButton22.setForeground(new java.awt.Color(0, 0, 0));
         jButton22.setText("-");
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,7 +218,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton23.setBackground(new java.awt.Color(51, 153, 255));
-        jButton23.setForeground(new java.awt.Color(0, 0, 0));
+        jButton23.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
         jButton23.setText("*");
         jButton23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -230,7 +227,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton24.setBackground(new java.awt.Color(102, 204, 255));
-        jButton24.setForeground(new java.awt.Color(0, 0, 0));
+        jButton24.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton24.setText("8");
         jButton24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -239,8 +236,13 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton25.setBackground(new java.awt.Color(51, 153, 255));
-        jButton25.setForeground(new java.awt.Color(0, 0, 0));
+        jButton25.setFont(new java.awt.Font("Stencil", 0, 14)); // NOI18N
         jButton25.setText("/");
+        jButton25.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jButton25MouseEntered(evt);
+            }
+        });
         jButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton25ActionPerformed(evt);
@@ -248,7 +250,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton1.setBackground(new java.awt.Color(102, 255, 153));
-        jButton1.setForeground(new java.awt.Color(0, 0, 0));
+        jButton1.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton1.setText("=");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -331,7 +333,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(14, 14, 14)
@@ -430,7 +432,7 @@ public class NewJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-        // tecla borrar
+        // tecla borra
         panel.setText("");
         miniDisplay.setText("0"); // Limpia el subDisplay
     }//GEN-LAST:event_jButton20ActionPerformed
@@ -511,6 +513,10 @@ public class NewJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
                 jButton20.setBackground(new java.awt.Color(255, 0, 51));
     }//GEN-LAST:event_jButton20MouseExited
+
+    private void jButton25MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton25MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton25MouseEntered
 
     /**
      * @param args the command line arguments
